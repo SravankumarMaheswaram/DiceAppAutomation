@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<!--<TargetFramework>netcoreapp3.1</TargetFramework>-->
+		<TargetFramework>netcoreapp6.0</TargetFramework>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CsvHelper" Version="30.0.1" />
+		<PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+		<PackageReference Include="Selenium.Support" Version="4.14.0" />
+		<PackageReference Include="Selenium.WebDriver" Version="4.14.0" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="118.0.5993.7000" />
+		<PackageReference Include="Selenium.WebDriver.MicrosoftDriver" Version="17.17134.0" />
+		<PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Microsoft.IdentityModel.Abstractions">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.IdentityModel.Logging">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.IdentityModel.Tokens">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Win32.SystemEvents">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Mono.Cecil.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil.Mdb">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Mono.Cecil.Mdb.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil.Pdb">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Mono.Cecil.Pdb.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Cecil.Rocks">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Mono.Cecil.Rocks.dll</HintPath>
+		</Reference>
+		<Reference Include="newsubjectsforregister">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\newsubjectsforregister.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="nunit.core">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\nunit.core.dll</HintPath>
+		</Reference>
+		<Reference Include="nunit.core.interfaces">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\nunit.core.interfaces.dll</HintPath>
+		</Reference>
+		<Reference Include="nunit.util">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\nunit.util.dll</HintPath>
+		</Reference>
+		<Reference Include="NUnit.VisualStudio.TestAdapter">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\NUnit.VisualStudio.TestAdapter.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Configuration.ConfigurationManager">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Drawing.Common">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Drawing.Common.dll</HintPath>
+		</Reference>
+		<Reference Include="System.IdentityModel.Tokens.Jwt">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Security.AccessControl">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Security.Cryptography.ProtectedData">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Security.Permissions">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Security.Permissions.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Security.Principal.Windows">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll</HintPath>
+		</Reference>
+		<Reference Include="System.Windows.Extensions">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\System.Windows.Extensions.dll</HintPath>
+		</Reference>
+		<Reference Include="Twilio">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\Twilio.dll</HintPath>
+		</Reference>
+		<Reference Include="WebDriver">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\WebDriver.dll</HintPath>
+		</Reference>
+		<Reference Include="WebDriver.Support">
+			<HintPath>..\..\..\..\..\working\totalsubjectsget\newsubjectsforregister\newsubjectsforregister\bin\Release\netcoreapp3.1\WebDriver.Support.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
